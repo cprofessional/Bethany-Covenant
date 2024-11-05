@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import styles from './ContactUs.module.css';
+import styles from './Contact.module.css';
 
 import purpleImage from './assets/purple.jpg';
 import drugImage from './assets/drug.jpg';
@@ -28,7 +28,7 @@ const ContactUs: React.FC = () => {
           <Image src={crossImage} alt="Cross Icon" width={100} height={100} />
         </div>
         <h2 className={styles.heading}>Need To Reach Out? <br /> We Are Here For You</h2>
-        <button className={styles.contactButton}>Contact Us</button>
+        <button onClick={() => window.location.href = "/contact"}className={styles.contactButton}>Contact Us</button>
       </div>
     </div>
   );

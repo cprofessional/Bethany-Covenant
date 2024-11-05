@@ -54,10 +54,11 @@
   }
   
   .link {
-    color: inherit;
+    color: rgb(45, 131, 165);
     text-decoration: none;
     margin-top: 0.25rem;
-    font-size: 0.875rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
   
   .link:hover {

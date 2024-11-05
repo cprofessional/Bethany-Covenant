@@ -25,7 +25,7 @@ const HelpOthers: React.FC = () => {
           challenge people to develop risk-taking faith that is determined to follow wherever
           Jesus leads. We need a team of people who will join together to fund this vision.
         </p>
-        <button className={styles.donateButton}>Donate</button>
+        <button onClick={() => window.location.href = "https://www.covchurchgiving.com/p-3456-give-to-bethany-covenant-church.aspx"} className={styles.donateButton}>Donate</button>
       </div>
       <div className={styles.imageContainer}>
         <Image src={lunchImage} alt="Community lunch" />

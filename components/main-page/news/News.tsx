@@ -1,7 +1,7 @@
 "use client"; // Ensure this is at the very top of the file
 
 import React from 'react';
-import styles from './LatestNews.module.css';
+import styles from './News.module.css';
 
 const LatestNews: React.FC = () => {
   return (
