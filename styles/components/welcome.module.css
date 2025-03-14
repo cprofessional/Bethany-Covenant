@@ -1,0 +1,96 @@
+.bethanyMain {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 60px;
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row-reverse;
+  padding: 45px;
+}
+
+.introText {
+  flex: 1;
+}
+
+.introText h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.introText .highlight {
+  font-weight: 900;
+  color: #333;
+}
+
+.introText p {
+  margin: 20px 0;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.imageSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+}
+
+.communityPhoto {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .bethanyMain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introText,
+  .imageSection {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .communityPhoto {
+    width: 300px;
+    height: 300px;
+  }
+
+  .introText h1 {
+    font-size: 1.7rem;
+  }
+}
+
+.learnMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.learnMoreButton {
+  display: inline-block;
+  background-color: #2c2e78;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.learnMoreButton:hover {
+  background-color: #1f2159;
+}

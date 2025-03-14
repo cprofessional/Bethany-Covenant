@@ -1,0 +1,32 @@
+.joinUsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-image:
+    linear-gradient(rgba(44, 46, 120, 0.5), rgba(44, 46, 120, 0.5)),
+    url('../../public/assets/BannerTrees.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .joinUsContainer {
+    height: 45vh;
+  }
+}
+
+.joinUsMainText {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.joinUsSubText {
+  font-size: 1rem;
+  font-weight: normal;
+}
