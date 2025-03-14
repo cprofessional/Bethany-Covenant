@@ -2,12 +2,21 @@
 
 import FadeInSection from "@/components/utilities/effects/fadein";
 import Footer from "@/components/layout/footer";
-import ChurchPlantingBanner from "@/components/about-us/church-planting/headbanner";
+import Banner from "@/components/about-us/who-we-are/headbanner";
+import WelcomeBanner from "@/components/about-us/who-we-are/welcomebanner";
+import TeamSection from "@/components/about-us/who-we-are/teamsection";
+import ContactSection from "@/components/about-us/who-we-are/contactsection";
 
 export default function Page() {
   return (
     <div>
-        <ChurchPlantingBanner/>
+        <Banner/>
+        
+        <WelcomeBanner/>
+
+        <TeamSection/>
+
+        <ContactSection/>
           
         <FadeInSection>
             <Footer />
