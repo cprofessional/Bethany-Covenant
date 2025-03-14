@@ -1,7 +1,6 @@
 "use client";
 
 import FadeInSection from "@/components/utilities/effects/fadein";
-import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import LetsChat from '@/components/contact-page/letschat';
 import LocationBanner from '@/components/contact-page/locationbanner';
