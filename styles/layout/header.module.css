@@ -36,7 +36,7 @@
 .dropdown:hover .dropdownMenu {
   opacity: 1;
   visibility: visible;
-  transform: translateY(5px);
+  pointer-events: auto;
 }
 
 .dropdownMenu a {
