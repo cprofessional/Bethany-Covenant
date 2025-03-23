@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
         <div className={styles.rightSection}>
           <h3 className={styles.sectionTitle}>Bethany Covenant</h3>
           <p>106 S Riverside Ave, St. Charles, IL 60174</p>
-          <p>Inside Pollyanna's Brewing Co.</p>
+          <p>Inside Pollyanna Brewing Co.</p>
           <p className={styles.contactInfo}>331.481.9861</p>
           <a href="mailto:info@bethanycov.org" className={styles.link}>
             info@bethanycov.org

@@ -18,7 +18,7 @@ export default function LocationBanner() {
         <address className="not-italic">
           <p className="text-lg font-medium">106 S Riverside Ave</p>
           <p className="text-lg">St. Charles, IL 60174</p>
-          <p className="text-md italic">(Inside Pollyanna's Brewing Co.)</p>
+          <p className="text-md italic">(Inside Pollyanna&apos;s Brewing Co.)</p>
         </address>
         <p className="text-xl font-semibold mt-4">Join us for Sunday service at 9am</p>
       </div>

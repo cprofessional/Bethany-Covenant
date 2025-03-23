@@ -86,7 +86,7 @@ ${message}`,
 
   return (
     <div className="flex flex-col items-center justify-center w-full px-6 py-12">
-      <h2 className="text-3xl font-semibold text-gray-900 mb-4">Let's chat over coffee!</h2>
+      <h2 className="text-3xl font-semibold text-gray-900 mb-4">Let&apos;s chat over coffee!</h2>
       <p className="text-gray-600 mb-4">Fill out the form below or email us at:</p>
       <div className="items-center justify-center">
         <p className="font-bold text-gray-900">
