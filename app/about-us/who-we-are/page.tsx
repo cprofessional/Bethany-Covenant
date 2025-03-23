@@ -10,25 +10,25 @@ import ContactSection from "@/components/about-us/who-we-are/contactsection";
 export default function Page() {
   return (
     <div>
-        <FadeInSection>
-          <Banner/>
-        </FadeInSection>
-        
-        <FadeInSection>
-          <WelcomeBanner/>
-        </FadeInSection>
+      <FadeInSection>
+        <Banner />
+      </FadeInSection>
 
-        <FadeInSection>
-          <TeamSection/>
-        </FadeInSection>
+      <FadeInSection>
+        <WelcomeBanner />
+      </FadeInSection>
 
-        <FadeInSection>
-          <ContactSection/>
-        </FadeInSection>
+      <FadeInSection>
+        <TeamSection />
+      </FadeInSection>
 
-        <FadeInSection>
-          <Footer />
-        </FadeInSection>
-      </div>
+      <FadeInSection>
+        <ContactSection />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
+    </div>
   );
 }

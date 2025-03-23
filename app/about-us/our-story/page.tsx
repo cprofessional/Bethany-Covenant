@@ -14,20 +14,20 @@ export default function Page() {
       <Header theme="dark" />
 
       <FadeInSection>
-       <OurStoryBanner/>
+        <OurStoryBanner />
       </FadeInSection>
 
       <FadeInSection>
-        <HistorySection/>
-      </FadeInSection> 
-
-      <FadeInSection>
-        <VisionSection/>
+        <HistorySection />
       </FadeInSection>
 
-        <FadeInSection>
-            <Footer />
-        </FadeInSection>
-      </div>
+      <FadeInSection>
+        <VisionSection />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
+    </div>
   );
 }

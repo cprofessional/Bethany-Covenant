@@ -42,9 +42,8 @@ const TeamSection = () => {
       {teamMembers.map((member, index) => (
         <div
           key={index}
-          className={`flex flex-col md:flex-row ${
-            index % 2 === 1 ? "md:flex-row-reverse" : ""
-          } items-center gap-8 max-w-5xl`}
+          className={`flex flex-col md:flex-row ${index % 2 === 1 ? "md:flex-row-reverse" : ""
+            } items-center gap-8 max-w-5xl`}
         >
           <div className="w-64 h-64 flex-shrink-0">
             <Image

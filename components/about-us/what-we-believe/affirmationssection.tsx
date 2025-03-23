@@ -6,13 +6,13 @@ const AffirmationsSection = () => {
   return (
     <section className="relative bg-blue-700 text-white py-16 px-6 md:px-16">
       <div className="absolute inset-0">
-        <Image 
-          src={Cross} 
-          alt="Cross Background" 
-          layout="fill" 
-          objectFit="cover" 
-          objectPosition="center" 
-          quality={100} 
+        <Image
+          src={Cross}
+          alt="Cross Background"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          quality={100}
           className="opacity-30"
         />
       </div>

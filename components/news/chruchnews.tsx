@@ -68,31 +68,31 @@ const ChurchNews = () => {
 
   return (
     <main id="page" className="container mx-auto p-4" role="main">
-        <section className="bg-gray-100 py-12">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {newsPosts.map((post, index) => (
-                    <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
-                        <a href={post.link}>
-                            <Image 
-                                src={`/assets/news/${sanitizeTitle(post.title)}.png`} 
-                                alt={post.title} 
-                                width={500} 
-                                height={300} 
-                                className="w-full object-cover" 
-                            />
-                        </a>
-                        <div className="p-4">
-                            <h2 className="text-xl font-bold mb-2"><a href={post.link}>{post.title}</a></h2>
-                            <p className="text-sm text-gray-600 mb-4">{post.date}</p>
-                            <p className="text-gray-700">{post.excerpt}</p>
-                            <a href={post.link} className="text-blue-500 mt-4 inline-block">Read More</a>
-                        </div>
-                    </div>
-                ))}
+      <section className="bg-gray-100 py-12">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {newsPosts.map((post, index) => (
+            <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
+              <a href={post.link}>
+                <Image
+                  src={`/assets/news/${sanitizeTitle(post.title)}.png`}
+                  alt={post.title}
+                  width={500}
+                  height={300}
+                  className="w-full object-cover"
+                />
+              </a>
+              <div className="p-4">
+                <h2 className="text-xl font-bold mb-2"><a href={post.link}>{post.title}</a></h2>
+                <p className="text-sm text-gray-600 mb-4">{post.date}</p>
+                <p className="text-gray-700">{post.excerpt}</p>
+                <a href={post.link} className="text-blue-500 mt-4 inline-block">Read More</a>
+              </div>
             </div>
-        </section>
+          ))}
+        </div>
+      </section>
     </main>
-);
+  );
 };
 
 export default ChurchNews

@@ -14,8 +14,8 @@ export default function Page() {
   return (
     <div style={{ backgroundColor: '#d4ec8e' }}>
 
-     <Header theme="light" />
-     
+      <Header theme="light" />
+
       <FadeInSection>
         <Welcome />
       </FadeInSection>

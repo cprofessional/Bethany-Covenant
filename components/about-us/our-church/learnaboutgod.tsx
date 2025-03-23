@@ -6,13 +6,13 @@ const LearnAboutGod = () => {
   return (
     <section className="relative flex flex-col items-center justify-center text-center text-white py-16 px-6">
       <div className="absolute inset-0">
-        <Image 
-          src={Cross} 
-          alt="Background Cross" 
-          layout="fill" 
-          objectFit="cover" 
-          objectPosition="center" 
-          quality={100} 
+        <Image
+          src={Cross}
+          alt="Background Cross"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          quality={100}
         />
         <div className="absolute inset-0 bg-blue-900 opacity-90"></div>
       </div>
@@ -22,7 +22,7 @@ const LearnAboutGod = () => {
           When we want to learn about God, we look to Jesus.
         </h2>
         <p className="mt-4 text-lg text-gray-300">
-          As we experience the power of gospel, we are committed to cultivating risk-taking faith that enables us to follow wherever Jesus leads. 
+          As we experience the power of gospel, we are committed to cultivating risk-taking faith that enables us to follow wherever Jesus leads.
           We are connected to the historical and global church and are committed to supporting believers around the world.
         </p>
         <Link href="/contact">

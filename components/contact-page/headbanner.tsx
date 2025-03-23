@@ -6,9 +6,9 @@ import Header from '../layout/header';
 
 export default function HeadBanner() {
   return (
-    <div> 
-        <div className="absolute inset-0 bg-blue-900 opacity-85 h-1/3"></div>
-        <Header theme='dark' />
+    <div>
+      <div className="absolute inset-0 bg-blue-900 opacity-85 h-1/3"></div>
+      <Header theme='dark' />
       <div className="relative w-full h-64 md:h-80 lg:h-96 flex items-center justify-center">
         <Image
           src={BookImage}

@@ -15,24 +15,24 @@ export default function Page() {
       <Header theme="dark" />
 
       <FadeInSection>
-       <OurChurchBanner/>
+        <OurChurchBanner />
       </FadeInSection>
 
       <FadeInSection>
-        <AboutSection/>
+        <AboutSection />
       </FadeInSection>
 
       <FadeInSection>
-        <LearnAboutGod/>
+        <LearnAboutGod />
       </FadeInSection>
 
       <FadeInSection>
-        <InfoCircles/>
+        <InfoCircles />
       </FadeInSection>
 
       <FadeInSection>
-          <Footer />
+        <Footer />
       </FadeInSection>
-      </div>
+    </div>
   );
 }

@@ -9,19 +9,19 @@ import ContactUs from "@/components/home/contact";
 export default function Page() {
   return (
     <div>
-        <HeadBanner/>
+      <HeadBanner />
 
-        <FadeInSection>
-          <ReviveCommunity/>  
-        </FadeInSection>
+      <FadeInSection>
+        <ReviveCommunity />
+      </FadeInSection>
 
-        <FadeInSection> 
-          <ContactUs/>
-        </FadeInSection>
-          
-        <FadeInSection>
-          <Footer />
-        </FadeInSection>
-      </div>
+      <FadeInSection>
+        <ContactUs />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
+    </div>
   );
 }
