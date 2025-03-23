@@ -129,12 +129,15 @@
 }
 
 .menuToggle {
-  display: none;
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999; /* super high to stay above other components */
   background: none;
   border: none;
   font-size: 2rem;
   cursor: pointer;
-  z-index: 1001;
 }
 
 .menuIcon {
