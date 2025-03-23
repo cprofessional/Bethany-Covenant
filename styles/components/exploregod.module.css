@@ -1,0 +1,83 @@
+.exploreGodContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.videoSection {
+  flex: 1;
+  max-width: 745px;
+}
+
+.textSection {
+  flex: 1;
+  max-width: 500px;
+  text-align: center;
+}
+
+.textSection h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.textSection h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0.5rem 0;
+}
+
+.textSection p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 1rem;
+}
+
+.youtubeButton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2c2e78;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.youtubeButton:hover {
+  background-color: #242660;
+}
+
+@media (max-width: 768px) {
+  .exploreGodContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textSection {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .videoSection iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  .textSection h2 {
+    font-size: 1.75rem;
+  }
+
+  .textSection h3 {
+    font-size: 1.25rem;
+  }
+
+  .textSection p {
+    font-size: 0.9rem;
+  }
+}

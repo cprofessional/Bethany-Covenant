@@ -1,0 +1,180 @@
+.footer {
+  background-color: #d1e38d;
+  color: black;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  grid-template-areas:
+    "subscribe"
+    "links"
+    "info";
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "links subscribe info";
+    gap: 2rem;
+  }
+}
+
+.leftSection {
+  grid-area: links;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.middleSection {
+  grid-area: subscribe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.rightSection {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.link {
+  color: rgb(45, 131, 165);
+  text-decoration: none;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: rgb(28, 82, 103);
+  text-decoration: underline;
+}
+
+.privacyPolicy {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.sectionTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.subscribeText {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.subscribeForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input:focus {
+  border-color: #4c52a0;
+  box-shadow: 0 0 0 2px rgba(76, 82, 160, 0.2);
+}
+
+.button {
+  background-color: #1f2159;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: rgba(31, 33, 89, 0.9);
+  transform: translateY(-2px);
+}
+
+.contactInfo,
+.joinUs {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+}
+
+@media (min-width: 768px) {
+  .leftSection {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .rightSection {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .subscribeForm {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .container {
+    gap: 1.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.1rem;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
+}
