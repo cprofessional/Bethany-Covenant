@@ -12,14 +12,16 @@ export default function Page() {
         <HeadBanner/>
 
         <FadeInSection>
-            <ReviveCommunity/>  
+          <ReviveCommunity/>  
         </FadeInSection>
 
-        <ContactUs/>
+        <FadeInSection> 
+          <ContactUs/>
+        </FadeInSection>
           
-          <FadeInSection>
-        <Footer />
-      </FadeInSection>
+        <FadeInSection>
+          <Footer />
+        </FadeInSection>
       </div>
   );
 }

@@ -9,12 +9,18 @@ import VisionSection from "@/components/about-us/our-story/visualsection";
 export default function Page() {
   return (
     <div>
-      <OurStoryBanner/>
+      <FadeInSection>
+       <OurStoryBanner/>
+      </FadeInSection>
 
-      <HistorySection/>
+      <FadeInSection>
+        <HistorySection/>
+      </FadeInSection> 
 
-      <VisionSection/>
-          
+      <FadeInSection>
+        <VisionSection/>
+      </FadeInSection>
+
         <FadeInSection>
             <Footer />
         </FadeInSection>

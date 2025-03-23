@@ -10,13 +10,21 @@ import FreedomSection from "@/components/about-us/what-we-believe/freedomsection
 export default function Page() {
   return (
     <div>
-        <Banner/>
+        <FadeInSection>
+          <Banner/>
+        </FadeInSection>
 
-        <ECCSection/>
+        <FadeInSection>
+          <ECCSection/>
+        </FadeInSection>
 
-        <AffirmationsSection/>
+        <FadeInSection>
+          <AffirmationsSection/>
+        </FadeInSection>
 
-        <FreedomSection/>
+        <FadeInSection>
+          <FreedomSection/>
+        </FadeInSection>
           
         <FadeInSection>
             <Footer />

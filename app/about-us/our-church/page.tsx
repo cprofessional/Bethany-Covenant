@@ -10,17 +10,25 @@ import InfoCircles from "@/components/about-us/church-planting/infocircles";
 export default function Page() {
   return (
     <div>
-      <OurChurchBanner/>
+      <FadeInSection>
+       <OurChurchBanner/>
+      </FadeInSection>
 
-      <AboutSection/>
+      <FadeInSection>
+        <AboutSection/>
+      </FadeInSection>
 
-      <LearnAboutGod/>
+      <FadeInSection>
+        <LearnAboutGod/>
+      </FadeInSection>
 
-      <InfoCircles/>
-          
-        <FadeInSection>
-            <Footer />
-        </FadeInSection>
+      <FadeInSection>
+        <InfoCircles/>
+      </FadeInSection>
+
+      <FadeInSection>
+          <Footer />
+      </FadeInSection>
       </div>
   );
 }

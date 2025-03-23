@@ -45,7 +45,7 @@ const Welcome: FC = () => {
           We’re a group committed to learning together and where every voice matters.
         </p>
         <div className={styles.learnMoreContainer}>
-          <button onClick={() => window.location.href = "/our-church"} className={styles.learnMoreButton}>Learn more</button>
+          <button onClick={() => window.location.href = "/about-us/our-church"} className={styles.learnMoreButton}>Learn more</button>
         </div>
       </div>
     </main>

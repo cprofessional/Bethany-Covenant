@@ -10,16 +10,24 @@ import ContactSection from "@/components/about-us/who-we-are/contactsection";
 export default function Page() {
   return (
     <div>
-        <Banner/>
-        
-        <WelcomeBanner/>
-
-        <TeamSection/>
-
-        <ContactSection/>
-          
         <FadeInSection>
-            <Footer />
+          <Banner/>
+        </FadeInSection>
+        
+        <FadeInSection>
+          <WelcomeBanner/>
+        </FadeInSection>
+
+        <FadeInSection>
+          <TeamSection/>
+        </FadeInSection>
+
+        <FadeInSection>
+          <ContactSection/>
+        </FadeInSection>
+
+        <FadeInSection>
+          <Footer />
         </FadeInSection>
       </div>
   );
